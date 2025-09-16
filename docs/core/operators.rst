@@ -123,7 +123,7 @@ A quick mnemonic: ``~`` is a little flippy thing, so it's "not". ``/\`` looks li
 .. index:: => (implies)
 .. _=>:
 
-There is one more boolean operator of note: ``=>``, or "implication". ``A => B`` means "A is at least as true as B". ``A => B = FALSE`` when false if A is true and B is false, otherwise it's true. B is true or A is false (or both). You don't see this very often in programming, as it's pretty useless for control flow. But it's *extremely* important for any kind of specification work. We'll go into more detail about it `later <using_=>>`. [#iff]_
+There is one more boolean operator of note: ``=>``, or "implication". ``A => B`` means "A is at least as true as B". ``A => B = FALSE`` if A is true and B is false, otherwise it's true. You don't see this very often in programming, as it's pretty useless for control flow. But it's *extremely* important for any kind of specification work. We'll go into more detail about it `later <using_=>>`. [#iff]_
 
 .. exercise:: Contrapositives
   :name: contrapositive
@@ -527,5 +527,5 @@ Summary
   - We can map and filter sets.
 
 
-.. [#except-strings] Except strings. Well actually there is a keyword, ``STRING``, but it represents all possible strings, which is an infinitely large set, so...
 .. [#iff] There's also ``A <=> B`` for "A and B are both true or both false", but it's the same thing as writing ``A = B``.
+.. [#except-strings] Except strings. Well actually there is a keyword, ``STRING``, but it represents all possible strings, which is an infinitely large set, so...
